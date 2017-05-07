@@ -1,0 +1,26 @@
+.wrapper {
+  width: 400px;
+  height: 260px;
+  margin: 0 auto;
+  background: #eee;
+  padding: 5px 55px 20px; 
+  font-family: arial;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3px 2px;
+  margin: 0 0 15px 0;
+  font-size: 11px;
+}
+
+
+.btn {
+  background: transparent;
+  border: solid 1px #3b5998;
+  color: #3b5998;
+  float: right;
+  padding: 7px 20px;
+  font-weight: bold;
+}

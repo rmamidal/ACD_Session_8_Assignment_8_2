@@ -3,35 +3,38 @@
   <head>
     <title>Html5 local storage example | Session 8 Assignment 8.2</title>
     <!-- Including javascript file-->
+    <script src='jquery-3.0.0.min.js'></script>
     <script src='app.js'></script>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
+  <div class="wrapper"> 
     <h1>My selfie Tech </h1>
     <section class="main_page">
-      <input type="button" name="btnLogin" value="Login" class="login"/>
-      <input type="button" name="btnSingup" value="Sign Up" class="signup"/>
+      <input type="button" name="btnLogin" value="Login" class="btn login"/>
+      <input type="button" name="btnSingup" value="Sign Up" class="btn signup"/>
     </section>
     <section class="login_page">
       <form name="frmLogin">
       <label> Login </label>
       <input type="text" name="txtUsername" placeholder="Name"/>
       <input type="password" name="txtpassword" placeholder="Password"/>
-      <input type="submit" name="loginSubmit" value="Submit Query"/>
+      <input type="submit" name="loginSubmit" value="Submit Query"  class='btn'/>
       </form>
-      <br/>
-      <br/>
-      <input type="button" value="Back" class="back">
-    </section>
+     </section>
     <section class="signup_page">
       <form name="frmSignup">
       <label> SignUp </label>
       <input type="text" name="txtSignSame" placeholder="Name"/>
       <input type="password" name="txtSignPassword" placeholder="Password"/>
-      <input type="submit" name="signSubmit" value="Submit Query"/>
+      <input type="submit" name="signSubmit" value="Submit Query" class='btn'/>
       </form>
-      <br/>
-      <br/>
-      <input type="button" value="Back" class="back">
     </section>
+    <section class="back_link">
+     <br/>
+     <br/>
+     <input type="button" value="Back" class="back btn">
+    </section>
+    </div>
   </body>
 </html>
