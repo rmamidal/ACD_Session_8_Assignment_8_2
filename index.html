@@ -17,18 +17,23 @@
     <section class="login_page">
       <form name="frmLogin">
       <label> Login </label>
-      <input type="text" name="txtUsername" placeholder="Name"/>
-      <input type="password" name="txtpassword" placeholder="Password"/>
-      <input type="submit" name="loginSubmit" value="Submit Query"  class='btn'/>
+      <input type="text" name="txtUsername" id="txtUsername" placeholder="Name"/>
+      <input type="password" name="txtpassword" id="txtpassword" placeholder="Password"/>
+      <input type="submit" name="loginSubmit" value="Submit Query"  class='btn login_submit'/>
       </form>
      </section>
     <section class="signup_page">
       <form name="frmSignup">
       <label> SignUp </label>
-      <input type="text" name="txtSignSame" placeholder="Name"/>
-      <input type="password" name="txtSignPassword" placeholder="Password"/>
-      <input type="submit" name="signSubmit" value="Submit Query" class='btn'/>
+      <input type="text" name="txtSignName" id="txtSignName" placeholder="Name"/>
+      <input type="text" name="txtEmail" id="txtEmail" placeholder="Email"/>
+      <input type="password" name="txtSignPassword" id="txtSignPassword" placeholder="Password"/>
+      <input type="submit" name="signSubmit" value="Submit Query" class='btn sign_submit'/>
       </form>
+    </section>
+    <section class="home_page">
+      <div id='welcomeUser'> Welcome to Raj</div><br/><br/>
+      <input type="submit" name="logout" value="logout"  class='btn logout'/>
     </section>
     <section class="back_link">
      <br/>
